@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kereta"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#ABEFF8FE"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewProjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Proyek: E-Tiket Kereta"
+            android:textColor="@color/text_color"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewAuthors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disusun oleh:"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewAuthor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Fauzian"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewAuthor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Agus Budiman"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecommendationsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rekomendasi:"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecommendation1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gunakan aplikasi ini untuk memesan tiket kereta dengan mudah."
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecommendation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pastikan data yang Anda masukkan benar sebelum memesan."
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecommendation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi kami jika Anda mengalami masalah atau memiliki pertanyaan."
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp"
+            android:paddingBottom="4dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
